@@ -1,8 +1,4 @@
-Absolutely, Amir! Here's a **professional, GitHub-style `README.md`** for your project: **DevConnect – Developer Collaboration Platform**.
 
----
-
-```markdown
 # 🛠️ DevConnect – Developer Collaboration Platform
 
 A full-stack-ready **Spring Boot backend API** for a developer community platform where users can ask questions, collaborate in private rooms, and chat with other developers. Inspired by Stack Overflow + Slack.
