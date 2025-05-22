@@ -1,48 +1,48 @@
 
-# 🛠️ DevConnect – Developer Collaboration Platform
+#  Social_Media_Backend_Springboot_Application
 
 A full-stack-ready **Spring Boot backend API** for a developer community platform where users can ask questions, collaborate in private rooms, and chat with other developers. Inspired by Stack Overflow + Slack.
 
 ---
 
-## 📌 Features
+##  Features
 
-### 🧑‍💻 User & Auth
+###  User & Auth
 - User registration & login
 - JWT-based authentication
 - Role-based authorization (USER, MODERATOR, ADMIN)
 - Secure password hashing with BCrypt
 
-### ❓ Public Q&A
+###  Public Q&A
 - Post questions with tags
 - Comment on questions
 - Upvote questions and comments
 - Filter questions by tags, sort by popularity/date
 
-### 💬 Private Collaboration Rooms
+###  Private Collaboration Rooms
 - Create/join private rooms (like Slack channels)
 - Invite users to rooms
 - Real-time-style message posting inside rooms
 
-### 🔧 RESTful APIs & Clean Architecture
+###  RESTful APIs & Clean Architecture
 - Modular layered structure (Controller → Service → Repository)
 - DTO mapping & validation
 - Global exception handling
 - Swagger/OpenAPI documentation
 
-### 🧪 Testing & Quality
+###  Testing & Quality
 - JUnit 5 & Mockito unit tests
 - REST API integration tests
 - Input validation & error messages
 
-### 🐳 Deployment Ready
+###  Deployment Ready
 - Dockerfile + Docker Compose
 - MySQL/PostgreSQL as database
 - Can be deployed on EC2, Heroku, or VPS
 
 ---
 
-## 🗂️ Tech Stack
+##  Tech Stack
 
 | Layer        | Technology                         |
 |--------------|------------------------------------|
@@ -55,7 +55,7 @@ A full-stack-ready **Spring Boot backend API** for a developer community platfor
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 
@@ -81,7 +81,7 @@ devconnect-backend/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -105,7 +105,7 @@ docker-compose up --build
 
 ---
 
-## 🔐 API Authentication
+##  API Authentication
 
 * Use the `/api/auth/register` and `/api/auth/login` endpoints.
 * After login, include the JWT token in the `Authorization` header:
@@ -116,7 +116,7 @@ Authorization: Bearer <your_token>
 
 ---
 
-## 🧪 Sample Endpoints
+##  Sample Endpoints
 
 | Method | Endpoint                   | Description               |
 | ------ | -------------------------- | ------------------------- |
@@ -131,7 +131,7 @@ Authorization: Bearer <your_token>
 
 ---
 
-## 📌 Future Enhancements
+##  Future Enhancements
 
 * WebSocket support for real-time room messaging
 * Admin dashboard
@@ -140,7 +140,7 @@ Authorization: Bearer <your_token>
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Amir Mamdouh Helmy**
 Java Developer 
